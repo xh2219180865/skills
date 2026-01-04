@@ -140,6 +140,13 @@ Usage notes:
 <description>配合 constitution.md 使用的 React 18 + TypeScript 前端开发技能。集成 "Design System" 策略，强制要求通过 Ant Design Token + Tailwind CSS 定制独特 UI 主题（拒绝默认样式）。包含 Axios 拦截器(code!=0异常)、Zustand 状态管理及严格类型定义。Use this skill to generate production-grade React code that is both strictly typed and aesthetically distinctive</description>
 <location>global</location>
 </skill>
+
+<skill>
+<name>prd-generator</name>
+<description>协助产品经理生成专业级PRD。支持从交互式信息收集、竞品分析到完整文档生成。特色功能包括：多视角评审（Dev/QA/Design）、Mermaid复杂流程图绘制（时序/状态图）、数据埋点设计及权限矩阵管理</description>
+<location>global</location>
+</skill>
+
 </available_skills>
 <!-- SKILLS_TABLE_END -->
 
