@@ -123,6 +123,23 @@ Usage notes:
 <location>global</location>
 </skill>
 
+<skill>
+<name>backend-feature</name>
+<description>配合 constitution.md 使用的 Java 21 + Spring Boot 3 后端核心开发技能。包含全套基础设施（Result/Page/I18n/Exception）、MapStruct 转换策略及分层架构模版。Use this skill when implementing Java backend features. This skill enforces strict coding standards: No @Data on DOs, Jakarta EE imports, MapStruct with unmapped policy, Internationalized Exceptions, and PageResult responses.</description>
+<location>global</location>
+</skill>
+
+<skill>
+<name>backend-test</name>
+<description>配合 backend-feature 使用的 Java 21 + Spring Boot 3 后端自动化测试技能。包含单元测试(Service)、切片测试(Controller)及 AssertJ 断言规范。Use this skill to generate JUnit 5 tests. Enforces Mockito for isolation, WebMvcTest for APIs, and strictly validates CommonResult/PageResult structures</description>
+<location>global</location>
+</skill>
+
+<skill>
+<name>frontend-ui</name>
+<description>配合 constitution.md 使用的 React 18 + TypeScript 前端开发技能。集成 "Design System" 策略，强制要求通过 Ant Design Token + Tailwind CSS 定制独特 UI 主题（拒绝默认样式）。包含 Axios 拦截器(code!=0异常)、Zustand 状态管理及严格类型定义。Use this skill to generate production-grade React code that is both strictly typed and aesthetically distinctive</description>
+<location>global</location>
+</skill>
 </available_skills>
 <!-- SKILLS_TABLE_END -->
 
