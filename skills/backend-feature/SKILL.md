@@ -1,6 +1,6 @@
 ---
 name: backend-feature
-description: 配合 constitution.md 使用的 Java 21 + Spring Boot 3 后端核心开发技能。包含全套基础设施（Result/Page/I18n/Exception）、MapStruct 转换策略及分层架构模版。Use this skill when implementing Java backend features. This skill enforces strict coding standards: No @Data on DOs, Jakarta EE imports, MapStruct with unmapped policy, Internationalized Exceptions, and PageResult responses.
+description: 配合 constitution.md 使用的 Java 21 + Spring Boot 3 后端核心开发技能。包含全套基础设施（Result/Page/I18n/Exception）、MapStruct 转换策略及分层架构模版。Use this skill when implementing Java backend features. This skill enforces strict coding standards`No @Data on DOs, Jakarta EE imports, MapStruct with unmapped policy, Internationalized Exceptions, and PageResult responses.`
 ---
 
 # 后端功能开发
